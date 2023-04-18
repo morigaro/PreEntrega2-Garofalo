@@ -62,6 +62,14 @@ nav ul li a {
 a {
     text-decoration: none;
 }
+a.nav-link {
+    font-size: 28px;
+    color: #333697;
+}
+.nav-link.active {
+    font-size: 28px;
+    color: #333697;
+}
 
 @media (max-width:900px) {
     .items-desktop {
@@ -442,6 +450,14 @@ main {
     object-position: center;
 }
 
+@media (max-width: 768px) {
+    .clientes-text h1{
+        font-size: 46px;
+    }
+    p{
+        font-size: 22px;
+    }
+}
 
 /* CONTACTO - CONTENIDO*/
 
