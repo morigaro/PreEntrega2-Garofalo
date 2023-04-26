@@ -9,25 +9,11 @@ body {
 }
 
 /* NAVEGACION */
-
-.logo-header {
-    align-self: stretch;
-    padding-inline: 16px;
-}
-
 header {
     height: var(--header);
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
-}
-
-.header-fixed {
-    position: fixed;
-    background-color: white;
-    top: 0;
-    width: 100%;
-    z-index: 2;
 }
 
 nav ul {
@@ -99,8 +85,6 @@ main {
     /* 100% - footer - header */
     min-height: calc(100vh - 320px);
 }
-
-@media (max-width:769px) {}
 
 /* HOME - CONTENIDO */
 .banner {
@@ -326,6 +310,11 @@ main {
     object-fit: cover;
 }
 
+.imagen-quienes-somos:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     .contenedor-imagenes-quienes-somos {
         width: 100%;
@@ -414,7 +403,7 @@ main {
     transform: translate(-50%, -80%);
 }
 
-.imagen:hover .overlay {
+.imagen-trabajos:hover .overlay {
     height: 100%;
     cursor: pointer;
 }
