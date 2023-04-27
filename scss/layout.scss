@@ -1,6 +1,8 @@
+@import "./vars.scss";
+
 //NAVEGACIÓN//
 header {
-  height: 90px;
+  height: $header;
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
@@ -8,7 +10,7 @@ header {
 
 nav {
   ul {
-    gap: 20px;
+    gap: $spacing-4;
 
     li {
       list-style-type: none;
@@ -60,14 +62,14 @@ a {
 
 .footer {
   background-color: black;
-  padding: 25px;
+  padding: $spacing-4;
   margin-top: auto;
 
   @media (max-width: 768px) {
     .container {
       display: flex;
       flex-direction: column;
-      gap: 40px;
+      gap: $spacing-6;
       justify-content: space-evenly;
       .d-flex {
         width: 100% !important;
@@ -79,7 +81,7 @@ a {
 }
 
 .footer-links {
-  padding: 0 15px;
+  padding: 0 $spacing-2;
   width: 100%;
 
   @media (max-width: 768px) {
@@ -91,7 +93,7 @@ a {
     color: white;
     margin-bottom: 25px;
     font-weight: 500;
-    padding-bottom: 10px;
+    padding-bottom: $spacing-1;
     font-family: Roboto, sans-serif;
   }
 
@@ -101,7 +103,7 @@ a {
     font-family: Roboto, sans-serif;
 
     li {
-      margin-block: 8px;
+      margin-block: $spacing-1;
 
       .logo-footer {
         justify-content: center;
@@ -116,7 +118,7 @@ a {
         font-size: 18px;
         text-decoration: none;
         color: white;
-        margin-bottom: 15px;
+        margin-bottom: $spacing-2;
       }
     }
   }

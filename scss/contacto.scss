@@ -1,3 +1,5 @@
+@import "./vars.scss";
+
 .form {
   width: 90%;
   max-width: 600px;
@@ -28,7 +30,7 @@
 
     input {
       width: 100%;
-      padding: 10px;
+      padding: $spacing-1;
       box-sizing: border-box;
       background: none;
       outline: none;
@@ -45,8 +47,8 @@
   }
   button {
     float: right;
-    padding: 8px 12px;
-    margin: 8px 0 0;
+    padding: $spacing-1 $spacing-2;
+    margin: $spacing-1 0 0;
     font-family: Roboto, sans-serif;
     border: 2px solid gray;
     background: 0;

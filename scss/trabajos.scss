@@ -1,3 +1,5 @@
+@import "./vars.scss";
+
 .trabajos-text {
   align-items: center;
 
@@ -17,7 +19,7 @@
   margin: auto;
   justify-content: flex-start;
   flex-wrap: wrap;
-  column-gap: 16px;
+  column-gap: $spacing-2;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -29,7 +31,7 @@
     width: 32%;
     position: relative;
     height: 450px;
-    margin-bottom: 15px;
+    margin-bottom: $spacing-2;
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.19);
 
     @media (max-width: 768px) {
