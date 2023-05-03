@@ -138,6 +138,10 @@
     transform: translateY(-3%);
   }
 
+  @media (max-width: 768px) {
+    height: 510px;
+  }
+
   figure {
     margin: 0;
   }
@@ -153,10 +157,12 @@
   .contenido {
     padding: $spacing-2;
     text-align: center;
+
     p {
       line-height: 1.5;
       color: #6a6a6a;
     }
+
     h3 {
       font-weight: 400;
       margin-bottom: $spacing-2;
