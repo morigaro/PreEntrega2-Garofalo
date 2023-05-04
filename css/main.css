@@ -496,6 +496,11 @@ a {
 .card .avatar {
   width: 100%;
 }
+@media (max-width: 768px) {
+  .card .avatar {
+    height: 350px;
+  }
+}
 
 .clientes-text h1 {
   font-size: 55px;
