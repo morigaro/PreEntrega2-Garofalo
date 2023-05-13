@@ -274,11 +274,6 @@ a {
 .card-service img {
   height: 210px;
 }
-@media (max-width: 768px) {
-  .card-service img {
-    height: 0%;
-  }
-}
 .card-service .contenido {
   padding: 16px;
   text-align: center;
